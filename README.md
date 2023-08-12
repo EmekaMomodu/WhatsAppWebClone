@@ -4,6 +4,8 @@ Clone of Whatsapp Web UI. Check out its [backend service here](https://github.co
 
 Built with React and Socket.IO .
 
+- App is live at [link](https://whatsapp-web-clone-ui-4kpybk4p3a-uc.a.run.app)
+
 ## Run this project locally
 
 1. Open terminal in project's root directory i.e where the file named Dockerfile is located.
