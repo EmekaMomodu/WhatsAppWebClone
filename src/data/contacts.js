@@ -122,7 +122,7 @@ const users = [
 	{
 		id: 2,
 		profile_picture: ppGirl2,
-		name: "Karen Okonkwo",
+		name: "Emeka Momodu",
 		phone_number: "+2348123456789",
 		whatsapp_name: "Karen O.",
 		unread: 0,
@@ -619,7 +619,7 @@ const users = [
 	{
 		id: 7,
 		profile_picture: ppGirl3,
-		name: "Karen Okonkwo",
+		name: "Emeka Momodu",
 		phone_number: "+2348123456789",
 		whatsapp_name: "Karen",
 		unread: 0,

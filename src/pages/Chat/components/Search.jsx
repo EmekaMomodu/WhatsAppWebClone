@@ -14,7 +14,7 @@ const Search = () => {
 				<input className="search" placeholder="Search..." />
 			</div>
 			<div className="chat-sidebar__search-results">
-				<p> Search for messages with Karen Okonkwo.</p>
+				<p> Search for messages with Emeka Momodu.</p>
 			</div>
 		</>
 	);
