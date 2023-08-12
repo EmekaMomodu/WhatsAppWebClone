@@ -6,8 +6,9 @@ Built with React and Socket.IO .
 
 ## Run this project locally
 
-1. Download and Install Node JS from https://nodejs.org/en/download/
-2. In the root project directory, type `npm install` to install the project's dependencies.
-3. Once installation is complete, type `npm start` to start the project in your local browser.
+1. Open terminal in project's root directory i.e where the file named Dockerfile is located.
+2. Run command `docker build . -t whatsapp-web-clone-ui` to build the docker image.
+3. Run command `docker run -p 3000:3000 -d whatsapp-web-clone-ui` to spin up a container for the created image.
+4. This web application should start running on `http://localhost:3000/`.
 
 _N.B: You will need to run the backend service to simulate getting responses when you send in a message._
