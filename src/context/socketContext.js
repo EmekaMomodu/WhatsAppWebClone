@@ -4,8 +4,9 @@ import io from "socket.io-client";
 // const SOCKET_URL = window.location.origin.includes("localhost")
 // 	? "http://localhost:5000"
 // 	: "https://whatsapp-web-clone-backend.herokuapp.com/";
+// const SOCKET_URL = "http://localhost:5000";
 
-const SOCKET_URL = "http://localhost:5000";
+const SOCKET_URL = "https://whatsapp-web-clone-backend-4kpybk4p3a-uc.a.run.app";
 
 const socket = io.connect(SOCKET_URL);
 
