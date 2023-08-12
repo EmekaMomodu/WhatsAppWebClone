@@ -1,5 +1,5 @@
 import React from "react";
-import groupAvatar from "assets/images/women.png";
+import groupAvatar from "assets/images/group-harry-potter.jpg";
 import media from "assets/images/placeholder.jpeg";
 import Checkbox from "components/Checkbox";
 import Icon from "components/Icon";
@@ -9,19 +9,19 @@ const groups = [
 		name: "Group 1",
 		avatar: groupAvatar,
 		members:
-			"Michelle Obama, Sandra Bullock, Kerry Washington, Beyonce Knowles, Kamala Harris, You",
+			"Harry Potter, Hermione Granger, Ron Weasley, Rubeus Hagrid, Severus Snape, You",
 	},
 	{
 		name: "Group 2",
 		avatar: groupAvatar,
 		members:
-			"Michelle Obama, Sandra Bullock, Kerry Washington, Beyonce Knowles, Kamala Harris, You",
+			"Harry Potter, Hermione Granger, Ron Weasley, Rubeus Hagrid, Severus Snape, You",
 	},
 	{
 		name: "Group 3",
 		avatar: groupAvatar,
 		members:
-			"Michelle Obama, Sandra Bullock, Kerry Washington, Beyonce Knowles, Kamala Harris, You",
+			"Harry Potter, Hermione Granger, Ron Weasley, Rubeus Hagrid, Severus Snape, You",
 	},
 ];
 
@@ -91,9 +91,9 @@ const Profile = ({ user }) => {
 				</div>
 				<ul>
 					<li className="profile__about-item">
-						Out here saving the world, one block of code at a time.
+						Out here saving the world, one block of code and spell at a time.
 					</li>
-					<li className="profile__about-item">+23423456789</li>
+					<li className="profile__about-item">+19876543210</li>
 				</ul>
 			</div>
 

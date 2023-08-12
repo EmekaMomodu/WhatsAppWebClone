@@ -1,22 +1,23 @@
-import ppGirl1 from "assets/images/profile-picture-girl-1.jpeg";
-import ppGirl2 from "assets/images/profile-picture-girl-2.jpeg";
-import ppGirl3 from "assets/images/profile-picture-girl-3.jpeg";
-import ppGirl4 from "assets/images/profile-picture-girl-4.jpeg";
-import ppBoy1 from "assets/images/profile-picture-boy-1.jpeg";
-import ppBoy2 from "assets/images/profile-picture-boy-2.jpeg";
-import ppBoy3 from "assets/images/profile-picture-boy-3.jpeg";
+import ppDumbledore from "assets/images/profile-picture-dumbledore.jpg";
+import ppHarry from "assets/images/profile-picture-harry.jpg";
+import ppEmeka from "assets/images/profile-picture-emeka.jpeg";
+import ppVoldemort from "assets/images/profile-picture-voldemort.jpg";
+import ppRon from "assets/images/profile-picture-ron.jpg";
+import ppHermione from "assets/images/profile-picture-hermoine.jpg";
+import ppHagrid from "assets/images/profile-picture-hagrid.jpg";
+import ppSnape from "assets/images/profile-picture-snape.jpg"
 import getRandomSentence from "utils/getRandomSentence";
 
 const users = [
 	{
 		id: 1,
-		profile_picture: ppGirl3,
-		name: "Love of my life ❤️💜",
-		phone_number: "+2348123456789",
-		whatsapp_name: "Beyonce",
+		profile_picture: ppEmeka,
+		name: "Emeka Momodu",
+		phone_number: "+19876543210",
+		whatsapp_name: "Emeka",
 		unread: 3,
 		messages: {
-			"04/06/2021": [
+			"04/06/2023": [
 				{
 					content: getRandomSentence(),
 					sender: 1,
@@ -121,13 +122,13 @@ const users = [
 	},
 	{
 		id: 2,
-		profile_picture: ppGirl2,
-		name: "Emeka Momodu",
-		phone_number: "+2348123456789",
-		whatsapp_name: "Karen O.",
+		profile_picture: ppHarry,
+		name: "Harry Potter",
+		phone_number: "+19876543210",
+		whatsapp_name: "Harry",
 		unread: 0,
 		messages: {
-			"04/06/2021": [
+			"04/06/2023": [
 				{
 					content: getRandomSentence(),
 					sender: 2,
@@ -208,13 +209,13 @@ const users = [
 	},
 	{
 		id: 3,
-		profile_picture: ppGirl1,
-		name: "Titilayo Bello",
-		phone_number: "+2348123456789",
-		whatsapp_name: "titi123",
+		profile_picture: ppDumbledore,
+		name: "Albus Dumbledore",
+		phone_number: "+19876543210",
+		whatsapp_name: "Dumbledore",
 		unread: 0,
 		messages: {
-			"04/06/2021": [
+			"04/06/2023": [
 				{
 					content: getRandomSentence(),
 					sender: 3,
@@ -313,13 +314,13 @@ const users = [
 	},
 	{
 		id: 4,
-		profile_picture: ppBoy2,
-		name: "David Schwimmer",
-		phone_number: "+2348123456789",
-		whatsapp_name: "David",
+		profile_picture: ppHermione,
+		name: "Hermione Granger",
+		phone_number: "+19876543210",
+		whatsapp_name: "Hermione",
 		unread: 1,
 		messages: {
-			"04/06/2021": [
+			"04/06/2023": [
 				{
 					content: getRandomSentence(),
 					sender: 4,
@@ -416,16 +417,15 @@ const users = [
 		pinned: false,
 		typing: false,
 	},
-
 	{
 		id: 5,
-		profile_picture: ppBoy1,
-		name: "Daniel Oladeji",
-		phone_number: "+2348123456789",
-		whatsapp_name: "Beyonce",
+		profile_picture: ppRon,
+		name: "Ron Weasley",
+		phone_number: "+19876543210",
+		whatsapp_name: "Ron",
 		unread: 0,
 		messages: {
-			"04/06/2021": [
+			"04/06/2023": [
 				{
 					content: getRandomSentence(),
 					sender: 5,
@@ -512,13 +512,13 @@ const users = [
 	},
 	{
 		id: 6,
-		profile_picture: ppBoy3,
-		name: "Chris Breno",
-		phone_number: "+2348123456789",
-		whatsapp_name: "Chris",
+		profile_picture: ppHagrid,
+		name: "Rubeus Hagrid",
+		phone_number: "+19876543210",
+		whatsapp_name: "Hagrid",
 		unread: 3,
 		messages: {
-			"04/06/2021": [
+			"04/06/2023": [
 				{
 					content: getRandomSentence(),
 					sender: 6,
@@ -615,16 +615,15 @@ const users = [
 		pinned: false,
 		typing: false,
 	},
-
 	{
 		id: 7,
-		profile_picture: ppGirl3,
-		name: "Emeka Momodu",
-		phone_number: "+2348123456789",
-		whatsapp_name: "Karen",
+		profile_picture: ppSnape,
+		name: "Severus Snape",
+		phone_number: "+19876543210",
+		whatsapp_name: "Snape",
 		unread: 0,
 		messages: {
-			"04/06/2021": [
+			"04/06/2023": [
 				{
 					content: getRandomSentence(),
 					sender: 8,
@@ -709,16 +708,15 @@ const users = [
 		pinned: false,
 		typing: false,
 	},
-
 	{
 		id: 8,
-		profile_picture: ppGirl4,
-		name: "Beyoncé Knowles",
-		phone_number: "+2348123456789",
-		whatsapp_name: "Beyonce",
+		profile_picture: ppVoldemort,
+		name: "Lord Voldemort",
+		phone_number: "+19876543210",
+		whatsapp_name: "HeWhoMustNotBeNamed",
 		unread: 0,
 		messages: {
-			"04/06/2021": [
+			"04/06/2023": [
 				{
 					content: getRandomSentence(),
 					sender: 8,
